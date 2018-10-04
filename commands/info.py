@@ -24,7 +24,7 @@ class Info:
         t2 = time.perf_counter()
         # Singles quotes to match my relationship status
         fmt = f"\U0001f3d3 **Pong!** `{str(round((t2 - t1) * 1000))}ms`"
-        # An embed for 7 letters, yes
+        # An embed for 6 letters, yes
         em = discord.Embed(description=fmt, color=COLOR)
         await ctx.send(embed=em)
 
